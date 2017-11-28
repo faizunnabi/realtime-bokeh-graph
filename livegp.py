@@ -1,7 +1,6 @@
-import pandas as pd
 from datetime import datetime
 import random
-from bokeh.plotting import figure,output_file,show,curdoc,ColumnDataSource
+from bokeh.plotting import figure,curdoc,ColumnDataSource
 
 def getColor(d):
 	color=''
